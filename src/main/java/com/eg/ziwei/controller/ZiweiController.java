@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ZiweiController {
 
-    @PostMapping("/")
+    @PostMapping("/test")
     public void sampleInformation(SampleInformationDTO sampleInformationDTO){
         //to service.zeiwei
     }
