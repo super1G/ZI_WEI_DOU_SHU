@@ -9,6 +9,6 @@ public class ZiweiController {
 
     @PostMapping("/test")
     public void sampleInformation(SampleInformationDTO sampleInformationDTO){
-        //to service.zeiwei
+        //to service.zeiwei Test
     }
 }
