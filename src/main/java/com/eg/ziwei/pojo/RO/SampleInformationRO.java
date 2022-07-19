@@ -1,4 +1,4 @@
-package com.eg.ziwei.pojo.DTO;
+package com.eg.ziwei.pojo.RO;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @Data
-public class SampleInformationDTO {
+public class SampleInformationRO {
 
     @JsonProperty("name")
     private String name;
