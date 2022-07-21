@@ -16,4 +16,6 @@ public class SampleInformationRO {
     private String gender;
     @JsonProperty("calendar")
     private String calendar;
+    @JsonProperty("birth_time")
+    private int birthTime;
 }

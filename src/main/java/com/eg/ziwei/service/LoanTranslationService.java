@@ -36,8 +36,8 @@ public class LoanTranslationService {
         return String.valueOf(chars[(year - 3) % 12 - 1]);
     }
 
-    // todo 轉換時辰
-    public String parseChineseTimeStringByTime(int HH){
-        return String.valueOf(HH);
+    public String parseChineseTimeStringByTime(int HH) {
+        char[] chars = heavenlyStem.toCharArray();
+        return String.valueOf(chars[(HH + 1) / 2]);
     }
 }

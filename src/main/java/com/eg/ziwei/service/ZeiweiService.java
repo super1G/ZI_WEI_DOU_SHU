@@ -23,9 +23,8 @@ public class ZeiweiService {
         ChartInformationBO chartInformationBO = new ChartInformationBO(sampleInformationRO);
         chartInformationBO.setHeavenlyStem(loanTranslationService.parseHeavenlyStemStringByYear(chartInformationBO.getYear()));
         chartInformationBO.setEarthlyBranch(loanTranslationService.parseEarthlyBranchStringByYear(chartInformationBO.getYear()));
-
-        //取得時辰
-        //求天干地支
+        chartInformationBO.setChineseTime(loanTranslationService.parseChineseTimeStringByTime(sampleInformationRO.getBirthTime()));
+        System.out.println(chartInformationBO);
 
     }
 }
